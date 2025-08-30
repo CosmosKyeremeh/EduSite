@@ -472,9 +472,9 @@ header .fa-bars{
 }
 
 .contact .row .form-container input[type="submit"]:hover{
-  background: none;
-  color: var(--pink);
-  border: 2rem solid var(--pink);
+  background: var(--violet);
+  font-size: 2.2rem;
+  border: 2px solid var(--pink);
 }
 
 .footer{
