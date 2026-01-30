@@ -16,7 +16,7 @@ $(document).ready(function(){
     }
 
     $('section').each(function(){
-      var top = $(windwo).scrollTop();
+      var top = $(window).scrollTop();
       var id = $(this).attr('id')
       var height = $(this).height();
       var top = $(this).offset().top - 200;
